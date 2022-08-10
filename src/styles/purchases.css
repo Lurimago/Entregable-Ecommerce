@@ -1,0 +1,34 @@
+.price {
+    margin-left: 30%;
+}
+.quantity {
+    margin-left: 30%;
+}
+/* / RESPONSIVE
+   ========================================================================= / */
+
+/* / Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- / */
+   @media (min-width: 300px) {
+    .price {
+        margin-left: 30%;
+    }
+    .quantity {
+        margin-left: 20%;
+    }
+  }
+  
+  /* / Tablets en horizonal y escritorios normales
+     ------------------------------------------------------------------------- / */
+  @media (min-width: 1024px) {
+  }
+  
+  /* / Escritorios muy anchos
+     ------------------------------------------------------------------------- */
+  @media (min-width: 1200px) {
+    .navBarIcons {
+      margin-left: 90%;
+      /* border-style: solid;
+      border-color: yellow; */
+    }
+  }
